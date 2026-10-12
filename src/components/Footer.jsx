@@ -16,7 +16,7 @@ const Footer = () => {
             <div className="relative mb-6">
               <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-purple-600 blur-lg opacity-20 rounded-lg"></div>
               <h3 className="relative text-4xl font-black bg-gradient-to-r from-primary-400 via-purple-400 to-primary-600 bg-clip-text text-transparent">
-                JobPortal
+                HireHub
               </h3>
             </div>
             <p className="text-gray-300 mb-8 max-w-md text-lg leading-relaxed">
@@ -54,7 +54,7 @@ const Footer = () => {
                 </svg>
               </a>
               <a
-                href="https://github.com/jobportal"
+                href="https://github.com/utku-kucuk/hirehub"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group p-3 bg-gray-800/50 hover:bg-gradient-to-r hover:from-gray-600 hover:to-gray-700 rounded-xl transition-all duration-300 transform hover:scale-110 hover:-translate-y-1"
@@ -156,7 +156,7 @@ const Footer = () => {
               </Tooltip>
               <Tooltip
                 title="Terms of Service"
-                content="By using JobPortal you agree to provide accurate information, post only genuine job listings, and respect other users. We may remove content or accounts that violate these terms."
+                content="By using HireHub you agree to provide accurate information, post only genuine job listings, and respect other users. We may remove content or accounts that violate these terms."
               >
                 <button
                   type="button"
@@ -193,7 +193,7 @@ const Footer = () => {
             </div>
             <div className="text-center md:text-right">
               <div className="text-gray-400 text-sm mb-2">
-                © 2026 JobPortal. All rights reserved.
+                © 2026 HireHub. All rights reserved.
               </div>
               <div className="text-xs text-gray-500">
                 Made with ❤️ for job seekers worldwide

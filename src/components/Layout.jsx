@@ -3,9 +3,9 @@ import { Outlet, useLocation } from 'react-router-dom'
 import Navbar from './Navbar'
 import Footer from './Footer'
 
-const SITE_NAME = 'JobPortal'
+const SITE_NAME = 'HireHub'
 const DEFAULT_DESCRIPTION =
-	'Find your dream job on JobPortal. Browse thousands of openings and top companies, and apply in minutes.'
+	'Find your dream job on HireHub. Browse thousands of openings and top companies, and apply in minutes.'
 
 const setDescription = (content) => {
 	let meta = document.querySelector('meta[name="description"]')
