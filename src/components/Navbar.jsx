@@ -31,7 +31,7 @@ const Navbar = () => {
                 <div className="relative">
                   <div className="absolute inset-0 bg-gradient-to-r from-primary-600 to-purple-600 blur-lg opacity-20 rounded-lg"></div>
                   <span className="relative block text-3xl font-black bg-gradient-to-r from-primary-600 via-purple-600 to-primary-800 bg-clip-text text-transparent">
-                    JobPortal
+                    HireHub
                   </span>
                 </div>
               </Link>

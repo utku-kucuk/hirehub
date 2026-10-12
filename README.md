@@ -1,6 +1,6 @@
 <div align="center">
 
-# JobPortal
+# HireHub
 
 **A modern, role-based job board built with React 19, Vite 7 and Tailwind CSS 4.**
 
@@ -11,8 +11,11 @@ Job seekers search, save and apply for jobs. Employers post jobs and review appl
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-06B6D4?logo=tailwindcss&logoColor=white)
 ![React Router](https://img.shields.io/badge/React_Router-7-CA4245?logo=reactrouter&logoColor=white)
 ![License: MIT-0](https://img.shields.io/badge/License-MIT--0-green.svg)
+[![Deploy](https://github.com/utku-kucuk/hirehub/actions/workflows/deploy.yml/badge.svg?branch=main)](https://github.com/utku-kucuk/hirehub/actions/workflows/deploy.yml)
 
-![JobPortal home page demo in dark mode: searching for a job, then scrolling through featured jobs and top companies](docs/homepage.gif)
+[**Live demo →**](https://utku-kucuk.github.io/hirehub/)
+
+![HireHub home page demo in dark mode: searching for a job, then scrolling through featured jobs and top companies](docs/homepage.gif)
 
 </div>
 
@@ -118,8 +121,8 @@ All screenshots are taken in dark mode with the built-in mock data.
 ![Terminal demo: cloning the repo, installing dependencies, starting the dev server and building for production](docs/setup.gif)
 
 ```bash
-git clone https://github.com/mutkukucuk/job-portal-ui.git
-cd job-portal-ui
+git clone https://github.com/utku-kucuk/hirehub.git
+cd hirehub
 npm install
 npm run dev
 ```
@@ -161,7 +164,7 @@ Sign in with one of these mock accounts. You can also click **Show Demo Credenti
 ## Project Structure
 
 ```
-job-portal-ui/
+hirehub/
 ├── public/                 # Static assets (favicon, company logos)
 ├── docs/                   # README demo GIFs and screenshots
 ├── src/

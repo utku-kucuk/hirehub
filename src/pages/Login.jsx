@@ -111,7 +111,7 @@ const Login = () => {
                 theme === "dark" ? "text-gray-300" : "text-gray-600"
               } text-lg`}
             >
-              Sign in to your JobPortal account
+              Sign in to your HireHub account
             </p>
           </div>
 

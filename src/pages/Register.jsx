@@ -128,7 +128,7 @@ const Register = () => {
           <div className="text-center mb-8">
             <div className="relative mb-4">
               <h1 className="text-4xl font-black bg-gradient-to-r from-primary-600 via-purple-600 to-primary-800 bg-clip-text text-transparent">
-                Join JobPortal
+                Join HireHub
               </h1>
             </div>
             <p className={`${theme === 'dark' ? 'text-gray-300' : 'text-gray-600'} text-lg`}>

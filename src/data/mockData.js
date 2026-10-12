@@ -1,5 +1,8 @@
 // Comprehensive mock data generator for the job portal
 
+// Public assets live under Vite's base path (e.g. /hirehub/ on GitHub Pages)
+const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 // Job titles by category
 const jobTitles = {
   Technology: [
@@ -135,7 +138,7 @@ const jobTitles = {
 const companies = [
   {
     name: "TechCorp Inc.",
-    logo: "/logos/techcorp.png",
+    logo: asset("logos/techcorp.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.5,
@@ -144,7 +147,7 @@ const companies = [
   },
   {
     name: "Google",
-    logo: "/logos/google.png",
+    logo: asset("logos/google.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.4,
@@ -153,7 +156,7 @@ const companies = [
   },
   {
     name: "Microsoft",
-    logo: "/logos/microsoft.png",
+    logo: asset("logos/microsoft.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.4,
@@ -162,7 +165,7 @@ const companies = [
   },
   {
     name: "Apple",
-    logo: "/logos/apple.png",
+    logo: asset("logos/apple.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.6,
@@ -171,7 +174,7 @@ const companies = [
   },
   {
     name: "Amazon",
-    logo: "/logos/amazon.png",
+    logo: asset("logos/amazon.png"),
     industry: "E-commerce",
     size: "Large",
     rating: 4.2,
@@ -180,7 +183,7 @@ const companies = [
   },
   {
     name: "Tesla",
-    logo: "/logos/tesla.png",
+    logo: asset("logos/tesla.png"),
     industry: "Automotive",
     size: "Large",
     rating: 4.3,
@@ -189,7 +192,7 @@ const companies = [
   },
   {
     name: "Netflix",
-    logo: "/logos/netflix.png",
+    logo: asset("logos/netflix.png"),
     industry: "Entertainment",
     size: "Large",
     rating: 4.7,
@@ -198,7 +201,7 @@ const companies = [
   },
   {
     name: "Meta",
-    logo: "/logos/meta.png",
+    logo: asset("logos/meta.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.1,
@@ -207,7 +210,7 @@ const companies = [
   },
   {
     name: "Spotify",
-    logo: "/logos/spotify.png",
+    logo: asset("logos/spotify.png"),
     industry: "Music",
     size: "Medium",
     rating: 4.5,
@@ -216,7 +219,7 @@ const companies = [
   },
   {
     name: "Airbnb",
-    logo: "/logos/airbnb.png",
+    logo: asset("logos/airbnb.png"),
     industry: "Travel",
     size: "Medium",
     rating: 4.4,
@@ -225,7 +228,7 @@ const companies = [
   },
   {
     name: "Uber",
-    logo: "/logos/uber.png",
+    logo: asset("logos/uber.png"),
     industry: "Transportation",
     size: "Large",
     rating: 4.0,
@@ -234,7 +237,7 @@ const companies = [
   },
   {
     name: "Slack",
-    logo: "/logos/slack.png",
+    logo: asset("logos/slack.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.6,
@@ -243,7 +246,7 @@ const companies = [
   },
   {
     name: "Zoom",
-    logo: "/logos/zoom.svg",
+    logo: asset("logos/zoom.svg"),
     industry: "Technology",
     size: "Medium",
     rating: 4.5,
@@ -252,7 +255,7 @@ const companies = [
   },
   {
     name: "Shopify",
-    logo: "/logos/shopify.png",
+    logo: asset("logos/shopify.png"),
     industry: "E-commerce",
     size: "Medium",
     rating: 4.3,
@@ -261,7 +264,7 @@ const companies = [
   },
   {
     name: "Square",
-    logo: "/logos/square.png",
+    logo: asset("logos/square.png"),
     industry: "Fintech",
     size: "Medium",
     rating: 4.2,
@@ -270,7 +273,7 @@ const companies = [
   },
   {
     name: "Stripe",
-    logo: "/logos/stripe.png",
+    logo: asset("logos/stripe.png"),
     industry: "Fintech",
     size: "Medium",
     rating: 4.7,
@@ -279,7 +282,7 @@ const companies = [
   },
   {
     name: "Coinbase",
-    logo: "/logos/coinbase.png",
+    logo: asset("logos/coinbase.png"),
     industry: "Cryptocurrency",
     size: "Medium",
     rating: 4.1,
@@ -288,7 +291,7 @@ const companies = [
   },
   {
     name: "Twilio",
-    logo: "/logos/twilio.png",
+    logo: asset("logos/twilio.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.3,
@@ -297,7 +300,7 @@ const companies = [
   },
   {
     name: "GitHub",
-    logo: "/logos/github.png",
+    logo: asset("logos/github.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.5,
@@ -306,7 +309,7 @@ const companies = [
   },
   {
     name: "Adobe",
-    logo: "/logos/adobe.svg",
+    logo: asset("logos/adobe.svg"),
     industry: "Technology",
     size: "Large",
     rating: 4.4,
@@ -315,7 +318,7 @@ const companies = [
   },
   {
     name: "Salesforce",
-    logo: "/logos/salesforce.png",
+    logo: asset("logos/salesforce.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.3,
@@ -324,7 +327,7 @@ const companies = [
   },
   {
     name: "Oracle",
-    logo: "/logos/oracle.png",
+    logo: asset("logos/oracle.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.0,
@@ -333,7 +336,7 @@ const companies = [
   },
   {
     name: "IBM",
-    logo: "/logos/ibm.svg",
+    logo: asset("logos/ibm.svg"),
     industry: "Technology",
     size: "Large",
     rating: 4.1,
@@ -342,7 +345,7 @@ const companies = [
   },
   {
     name: "Intel",
-    logo: "/logos/intel.png",
+    logo: asset("logos/intel.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.2,
@@ -351,7 +354,7 @@ const companies = [
   },
   {
     name: "NVIDIA",
-    logo: "/logos/nvidia.png",
+    logo: asset("logos/nvidia.png"),
     industry: "Technology",
     size: "Large",
     rating: 4.6,
@@ -360,7 +363,7 @@ const companies = [
   },
   {
     name: "Palantir",
-    logo: "/logos/palantir.png",
+    logo: asset("logos/palantir.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.2,
@@ -369,7 +372,7 @@ const companies = [
   },
   {
     name: "Snowflake",
-    logo: "/logos/snowflake.png",
+    logo: asset("logos/snowflake.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.4,
@@ -378,7 +381,7 @@ const companies = [
   },
   {
     name: "Databricks",
-    logo: "/logos/databricks.png",
+    logo: asset("logos/databricks.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.5,
@@ -387,7 +390,7 @@ const companies = [
   },
   {
     name: "Canva",
-    logo: "/logos/canva.png",
+    logo: asset("logos/canva.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.6,
@@ -396,7 +399,7 @@ const companies = [
   },
   {
     name: "Figma",
-    logo: "/logos/figma.png",
+    logo: asset("logos/figma.png"),
     industry: "Technology",
     size: "Medium",
     rating: 4.7,

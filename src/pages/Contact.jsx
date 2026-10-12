@@ -326,7 +326,7 @@ const Contact = () => {
                   </svg>
                 </div>
                 <h3 className="font-semibold text-gray-900 dark:text-white">Email Us</h3>
-                <p className="text-sm text-gray-600 dark:text-gray-400">support@jobportal.com</p>
+                <p className="text-sm text-gray-600 dark:text-gray-400">support@hirehub.example</p>
               </div>
 
               <div className="space-y-2">
